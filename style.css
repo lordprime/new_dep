@@ -325,10 +325,10 @@ p {
 	text-align: left;
 }
 /* End Services Section */
+
 /* Publications Section */
 #publications .publications {
     flex-direction: column;
-    text-align: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
@@ -409,38 +409,8 @@ p {
     transform: scale(1.1);
 }
 
-/* Responsive Design for Publications */
-@media only screen and (min-width: 768px) {
-    #publications .publication-item {
-        flex-direction: row;
-    }
+/* End Publications Section */
 
-    #publications .publication-item:nth-child(even) {
-        flex-direction: row-reverse;
-    }
-
-    #publications .publication-item {
-        height: 400px;
-        margin: 0;
-        width: 100%;
-        border-radius: 0;
-    }
-
-    #publications .all-publications .publication-info {
-        height: 100%;
-    }
-
-    #publications .all-publications .publication-img {
-        height: 100%;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    #publications .publication-item {
-        flex-basis: 45%;
-        margin: 2.5%;
-    }
-}
 
 /* Projects section */
 #projects .projects {
