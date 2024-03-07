@@ -3,7 +3,7 @@
 ```text
      _   _            _    ____        _   
     | | | | __ _  ___| | _| __ )  ___ | |_ 
-    | |_| |/ _` |/ __| |/ /  _ \ / _ \| __| By: Morpheuslord
+    | |_| |/ _` |/ __| |/ /  _ \ / _ \| __| By: R ABHISHEK REDDY
     |  _  | (_| | (__|   <| |_) | (_) | |_  AI used: Meta-LLama2
     |_| |_|\__,_|\___|_|\_\____/ \___/ \__|
 ```
@@ -181,6 +181,5 @@ The Github version of the dataset is for the OpenAI training and the other is fo
 
 For any questions, feedback, or inquiries related to HackBot, feel free to contact the project maintainer:
 
-- Email: morpheuslord@protonmail.com
-- Twitter: [@morpheuslord2](https://twitter.com/morpheuslord2)
-- LinkedIn: [ChiranjeeviG](https://www.linkedin.com/in/chiranjeevi-g-naidu/)
+- Email: akabhiarvd2003@gmail.com
+- LinkedIn: https://www.linkedin.com/in/r-abhishek-reddy-56b950215/
