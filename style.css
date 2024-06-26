@@ -463,7 +463,7 @@ p {
 /* certificates seciton */
 /* Certificates Section */
 #certificates {
-    padding: 50px 0;
+    padding: 100px ;
     background-color: #f9f9f9;
     text-align: center;
 }
@@ -482,7 +482,7 @@ p {
 }
 
 #certificates .section-title {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 
@@ -510,21 +510,21 @@ p {
 }
 
 .Certificate-info h1 {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     font-weight: 500;
     margin: 0;
     margin-bottom: 10px;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
 }
 
 .Certificate-info h2 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin: 10px 0;
     color: #666;
 }
 
 .Certificate-info p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 10px 0 20px 0;
 }
 
