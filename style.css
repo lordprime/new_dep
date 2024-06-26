@@ -458,6 +458,76 @@ p {
 }
 /* End Projects section */
 
+
+
+/* certificates seciton */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.section-header h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.certificates-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.Certificate-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.Certificate-info h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.Certificate-info h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.Certificate-info p {
+    font-size: 1em;
+}
+
+.certificates-item img {
+    max-width: 200px;
+    margin-left: 20px;
+    align-self: flex-start;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .certificates-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certificates-item img {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .Certificate-info {
+        text-align: center;
+    }
+}
+
+
+/* certificates section */
+
 /* About Section */
 #about .about {
 	flex-direction: column-reverse;
