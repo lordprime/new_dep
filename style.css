@@ -461,68 +461,103 @@ p {
 
 
 /* certificates seciton */
+/* Certificates Section */
+#certificates {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
 
-#Certificates .Certificates {
+#certificates .certificates {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 0;
-}
-#Certificates .section-header h1 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
+    padding: 0 20px;
 }
 
-#Certificates .container {
-    width: 80%;
-    margin: 0 auto;
+#certificates .section-header {
+    margin-bottom: 50px;
 }
 
-#Certificates .certificates-item {
+#certificates .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#certificates .all-certificates {
     display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
+    flex-direction: column;
+    width: 100%;
 }
 
-#Certificates .Certificate-info {
-    flex: 1;
+.certificates-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
 
-#Certificates .Certificate-info h1 {
-    font-size: 1.5em;
+.Certificate-info {
+    flex: 1;
+    text-align: left;
+}
+
+.Certificate-info h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
     margin: 0;
+    margin-bottom: 10px;
+    letter-spacing: 0.2rem;
 }
 
-#Certificates .Certificate-info h2 {
-    font-size: 1.2em;
+.Certificate-info h2 {
+    font-size: 1.2rem;
     margin: 10px 0;
+    color: #666;
 }
 
-#Certificates .Certificate-info p {
-    font-size: 1em;
+.Certificate-info p {
+    font-size: 1rem;
+    margin: 10px 0 20px 0;
 }
 
-#Certificates .Certificates-item img {
-    max-width: 200px;
-    margin-left: 20px;
-    align-self: flex-start;
+.Certificates-item img {
+    max-width: 250px;
+    border: 10px solid white;
+    position: relative;
+}
+
+.Certificates-item img::after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    height: 98%;
+    width: 98%;
+    border: 7px solid crimson;
+    z-index: -1;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
- #Certificates .Certificates-item {
+    .Certificates-item {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
- #Certificates .Certificates-item img {
-        margin-left: 0;
-        margin-top: 10px;
+    .Certificates-item img {
+        margin: 20px 0 0 0;
     }
 
- #Certificates .Certificate-info {
+    .Certificate-info {
         text-align: center;
     }
 }
